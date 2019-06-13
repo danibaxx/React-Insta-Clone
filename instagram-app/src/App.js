@@ -2,8 +2,10 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
-import SearchBar from './components/SearchBar';
+import SearchBar from './components/SearchBar/SearchBar';
+import PostContainer from './components/PostContainer/PostContainer';
 import dummyData from './dummy-data';
+
 
 // function App() {
 //   return (
@@ -30,7 +32,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      insta: dummyData
+      data: dummyData
     };
   }
 
@@ -38,6 +40,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <SearchBar />
+        <PostContainer />
+        <h1>Test</h1>
       </div>
     );
   }
