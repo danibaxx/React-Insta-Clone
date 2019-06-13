@@ -40,7 +40,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <SearchBar />
-        <PostContainer />
+        <PostContainer insta={this.state.data} />
         <h1>Test</h1>
       </div>
     );
