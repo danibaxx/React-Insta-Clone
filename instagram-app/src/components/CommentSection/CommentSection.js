@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 const CommentSection = () => {
   return (
-    <h3>{this.post.}</h3>
+    <h3>{this.post.comment}</h3>
   );
 };
 

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Post.css';
+
 function PostContainer(props) {
   console.log(props);
   return (
