@@ -1,19 +1,12 @@
 import React from 'react';
+import IGbar from '../../assets/ig_search_bar.png';
 
-function SearchBar() {
+
+const SearchBar = () => {
   return (
     <div className="search-container">
       <header>
-        <h3>Instagram Logo</h3>
-        <input 
-          type="text" 
-          id="site-search"
-          className="input"
-          placeholder="Search" 
-        />
-        <h3>Compass</h3>
-        <h3>Like</h3>
-        <h3>Profile</h3>
+        <img alt="instagram logo" src={IGbar} className="logo-image" />
       </header>
     </div>
   );
