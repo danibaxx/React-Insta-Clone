@@ -1,3 +1,17 @@
+.post-container {
+  border: 1px solid lightgray;
+  max-width: 640px;
+}
+
+.post-content {
+  display: flex;
+}
+
+.user-logo {
+  border-radius: 100%;
+  width: 35px;
+}
+
 .like-logo {
   width: 30px;
   height: 30px;
